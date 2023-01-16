@@ -10,6 +10,7 @@ namespace Custo_CSharp_2023
     {   //8. Para vários tributos a base cálculo é o salário mínimo. Fazer um algoritmo que leia o valor do salário mínimo e o valor do salário de uma pessoa. Calcular e imprimir quantos salários mínimos a pessoa ganha.
         public static void Exercicio()
         {
+            try { 
             float salario_minimo = 1302.00f;
 
             Console.Write("Informe o Seu Salário: ");
@@ -20,7 +21,13 @@ namespace Custo_CSharp_2023
             
 
             Console.ReadLine();
-
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.ReadLine();
+                Menu_Atividades.Menu();
+            }
         }
     }
 }

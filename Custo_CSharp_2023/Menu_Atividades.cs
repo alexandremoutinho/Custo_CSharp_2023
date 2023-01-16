@@ -28,6 +28,7 @@ namespace Custo_CSharp_2023
                 Console.WriteLine("# 06 >> Atividade = Exercicio 06                                             #");
                 Console.WriteLine("# 07 >> Atividade = Exercicio 07                                             #");
                 Console.WriteLine("# 08 >> Atividade = Exercicio 08                                             #");
+                Console.WriteLine("# 09 >> Atividade = Exercicio 09                                             #");
                 Console.WriteLine("# 00 >> Sair                                                                 #");
                 Console.WriteLine("#=============================================================================#");
                 Console.Write(">>> Escolha a Atividades desejada: ");
@@ -103,6 +104,11 @@ namespace Custo_CSharp_2023
             {
                 Mensagens.MenuAtividade("Atividade 08", " Para vários tributos a base cálculo é o salário mínimo. Fazer um algoritmo que\n leia o valor do salário mínimo e o valor do salário de uma pessoa.\n Calcular e imprimir quantos salários mínimos a pessoa ganha. numerada.");
                 Atividade_08.Exercicio();
+            }
+            else if (op == "09")
+            {
+                Mensagens.MenuAtividade("Atividade 08", " Entrar com uma data no formato \"DDMMAA\" e imprimir dia, mês e ano separados.");
+                Atividade_09.Exercicio();
             }
 
             else { 
