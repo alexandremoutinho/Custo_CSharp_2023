@@ -27,6 +27,7 @@ namespace Custo_CSharp_2023
                 Console.WriteLine("# 05 >> Atividade = Exercicio 05                                             #");
                 Console.WriteLine("# 06 >> Atividade = Exercicio 06                                             #");
                 Console.WriteLine("# 07 >> Atividade = Exercicio 07                                             #");
+                Console.WriteLine("# 08 >> Atividade = Exercicio 08                                             #");
                 Console.WriteLine("# 00 >> Sair                                                                 #");
                 Console.WriteLine("#=============================================================================#");
                 Console.Write(">>> Escolha a Atividades desejada: ");
@@ -94,8 +95,14 @@ namespace Custo_CSharp_2023
 
             else if (op == "07")
             {
-                Mensagens.MenuAtividade("Atividade 07", " Armazenar 10 nomes e imprimir uma listagem numerada.");
+                Mensagens.MenuAtividade("Atividade 07", " Armazenar 10 nomes e imprimir uma listagem. numerada.");
                 Atividade_07.Exercicio();
+            }
+
+            else if (op == "08")
+            {
+                Mensagens.MenuAtividade("Atividade 08", " Para vários tributos a base cálculo é o salário mínimo. Fazer um algoritmo que\n leia o valor do salário mínimo e o valor do salário de uma pessoa.\n Calcular e imprimir quantos salários mínimos a pessoa ganha. numerada.");
+                Atividade_08.Exercicio();
             }
 
             else { 
